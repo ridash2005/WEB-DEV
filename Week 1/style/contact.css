@@ -1,0 +1,39 @@
+#contact-info {
+    margin: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.social-links {
+    margin-top: 20px;
+   
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.social-links .instagram {
+    background-color: #bc2a8d;
+}
+
+.social-links .facebook {
+    background-color: #3b5998;
+}
+
+.social-links .linkedin {
+    background-color: #0077b5;
+}

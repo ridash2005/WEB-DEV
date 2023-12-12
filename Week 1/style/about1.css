@@ -1,0 +1,46 @@
+body, h1, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #faf7f7;
+    line-height: 1.6;
+    background-image:url(Webdev.jpeg);
+  }
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
