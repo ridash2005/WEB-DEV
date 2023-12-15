@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" id="themeStylesheet" href="style_light.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Task List 2023</h1>
+        <input id="inputField" type="text" placeholder="What do you plan to do?">
+        <h2>Priority</h2> 
+        <select id="prioritySelect">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+        </select>
+        <br>
+        <label for="dueDate">Due Date:</label>
+        <input type="date" id="dueDate">
+        <label for="dueTime">Due Time:</label>
+        <input type="time" id="dueTime">
+        <br>
+        <button id="addToDo" style="margin-top:20px">Add Task</button>
+        <input type="text" id="searchBar" placeholder="Search tasks" > 
+        <h2>Tasks</h2>
+        <div class="filter-buttons">
+            <button onclick="filterTasks('all')">All</button>
+            <button onclick="filterTasks('low')">Low Priority</button>
+            <button onclick="filterTasks('medium')">Medium Priority</button>
+            <button onclick="filterTasks('high')">High Priority</button>
+        </div>
+        <div class="to-dos" id="toDoContainer"></div>
+        <button id="toggleTheme">Change Theme</button>
+    </div>
+    <img src="javascript.png" alt="javascript" id="topRightImage">
+    <script src="main.js"></script>
+    <script src="theme.js"></script>
+</body>
+</html>
